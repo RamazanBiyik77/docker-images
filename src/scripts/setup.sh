@@ -44,7 +44,7 @@ apt update
 wget https://ftp.mozilla.org/pub/firefox/releases/79.0/linux-x86_64/en-US/firefox-79.0.tar.bz2
 apt -y install bzip2
 apt -y install firefox
-apt -t remove firefox
+apt -y remove firefox
 tar -xvf firefox-79.0.tar.bz2 -C /opt
 ln -s /opt/firefox/firefox /usr/bin
 #apt install -y firefox
