@@ -45,7 +45,6 @@ wget https://ftp.mozilla.org/pub/firefox/releases/79.0/linux-x86_64/en-US/firefo
 apt install bzip2
 tar -xvf firefox-79.0.tar.bz2 -C /opt
 ln -s /opt/firefox/firefox /usr/bin
-rm firefox-79.0.tar.bz2
 #apt install -y firefox
 # Install 'pulseaudio' package to support WebRTC audio streams
 apt -y install pulseaudio
