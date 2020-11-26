@@ -43,7 +43,7 @@ echo "deb http://security.ubuntu.com/ubuntu xenial-security main " >> /etc/apt/s
 apt update
 wget https://ftp.mozilla.org/pub/firefox/releases/79.0/linux-x86_64/en-US/firefox-79.0.tar.bz2
 apt install bzip2
-tar -xvf https://ftp.mozilla.org/pub/firefox/releases/79.0/linux-x86_64/en-US/firefox-79.0.tar.bz2 -C /opt
+tar -xvf firefox-79.0.tar.bz2 -C /opt
 ln -s /opt/firefox/firefox /usr/bin
 rm firefox-79.0.tar.bz2
 #apt install -y firefox
